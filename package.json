@@ -25,7 +25,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json",
+    "test": "mocha",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
@@ -40,5 +40,17 @@
     "jsdom": "9.2.1",
     "mocha": "5.2.0",
     "mocha-jsdom": "2.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
